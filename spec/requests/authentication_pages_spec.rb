@@ -47,6 +47,8 @@
 
 	describe "authorization" do 
 
+		subject { page }
+
 		describe "for non-signed-in users" do
 			let(:user) { FactoryGirl.create(:user) }
 
